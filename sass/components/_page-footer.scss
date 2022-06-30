@@ -1,0 +1,129 @@
+/* Footer */
+.footer {
+  background-color: $secondary-bg-color;
+
+  list-style-type: none;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-box {
+  display: flex;
+}
+
+.footer-address__list .footer-address__map {
+  color: $hero-text-color;
+}
+
+.footer-address__item {
+  margin-bottom: 9px;
+}
+
+.footer-address__item:last-child {
+  margin-bottom: 0px;
+}
+
+.footer-address__link {
+  display: inline-block;
+
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.footer-address {
+  margin-right: 70px;
+}
+
+/* footer social networks */
+.footer-socials {
+  margin-right: 93px;
+}
+
+.footer-socials__title,
+.footer-subscribe__title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: $hero-text-color;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.footer-socials__list {
+  display: flex;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-socials__link {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0s;
+
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    fill: $hero-text-color;
+  }
+}
+
+.footer-socials__item {
+  height: 44px;
+  width: 44px;
+}
+
+.footer-socials__icon {
+  fill: $hero-text-color;
+}
+
+.footer-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-subscribe__input {
+  padding: 15px 16px;
+  min-width: 358px;
+
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  color: rgba(255, 255, 255, 0.6);
+  background-color: inherit;
+}

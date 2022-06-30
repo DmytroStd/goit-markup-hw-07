@@ -1,0 +1,41 @@
+.section-functions {
+  padding-bottom: 94px;
+}
+
+.functions__card {
+  position: relative;
+  border: none;
+}
+
+.function__subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+
+  color: $hero-text-color;
+  background: rgba(47, 48, 58, 0.8);
+  min-width: 370px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.functions__pic {
+  margin-bottom: -4px;
+}
+
+.functions {
+  display: flex;
+  justify-content: space-between;
+}

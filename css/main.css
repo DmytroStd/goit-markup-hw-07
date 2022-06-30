@@ -1,0 +1,18 @@
+body {
+  background-color: orange;
+}
+body__text {
+  color: red;
+}
+body__text--color {
+  color: green;
+  margin: 100px;
+}
+
+.front-item {
+  background-color: white;
+}
+
+.form {
+  font-size: 400;
+}/*# sourceMappingURL=main.css.map */

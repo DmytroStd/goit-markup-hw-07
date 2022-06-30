@@ -1,0 +1,18 @@
+$color: orange;
+
+body {
+    background-color: $color;
+
+    &__text {
+        color: red;
+
+        &--color {
+            color: green;
+            margin: 100px;
+        }
+    }
+}
+
+.front-item {
+    background-color: white;
+}

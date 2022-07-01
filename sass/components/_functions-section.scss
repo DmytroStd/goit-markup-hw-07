@@ -2,9 +2,17 @@
   padding-bottom: 94px;
 }
 
-.functions__card {
-  position: relative;
-  border: none;
+.functions {
+  display: flex;
+  justify-content: space-between;
+
+  &__card {
+    position: relative;
+    border: none;
+  }
+  &__pic {
+    margin-bottom: -4px;
+  }
 }
 
 .function__subtitle {
@@ -29,13 +37,4 @@
   min-width: 370px;
   padding-top: 27px;
   padding-bottom: 27px;
-}
-
-.functions__pic {
-  margin-bottom: -4px;
-}
-
-.functions {
-  display: flex;
-  justify-content: space-between;
 }

@@ -8,11 +8,11 @@
   /* outline: 1px solid red; */
   margin-left: 32px;
   margin-right: 32px;
-}
 
-.cliets__item {
-  height: 92px;
-  width: 170px;
+  &__item {
+    height: 92px;
+    width: 170px;
+  }
 }
 
 .clients__link {

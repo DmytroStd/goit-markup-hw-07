@@ -1,5 +1,5 @@
 .team {
-  background-color: $accent-bg-color;
+  background-color: var(--accent-bg-color);
 }
 
 .team-cards {
@@ -32,7 +32,7 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   text-align: center;
-  color: $secondaty-text-color;
+  color: var(--secondaty-text-color);
   margin-bottom: 16px;
 }
 
@@ -45,7 +45,7 @@
   padding-top: 30px;
   padding-bottom: 30px;
   margin-bottom: 0;
-  background-color: $primary-bg-color;
+  background-color: var(--primary-bg-color);
 }
 
 .team-socials {
@@ -81,7 +81,7 @@
 
   &:hover,
   &:focus {
-    fill: $hero-text-color;
-    background-color: $accent-color;
+    fill: var(--hero-text-color);
+    background-color: var(--accent-color);
   }
 }

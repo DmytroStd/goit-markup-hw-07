@@ -34,7 +34,7 @@
 
   &:hover,
   &:focus {
-    border-color: $accent-color;
-    fill: $accent-color;
+    border-color: var(--accent-color);
+    fill: var(--accent-color);
   }
 }

@@ -1,6 +1,6 @@
 /* Footer */
 .footer {
-  background-color: $secondary-bg-color;
+  background-color: var(--secondary-bg-color);
 
   list-style-type: none;
   padding-top: 60px;
@@ -12,7 +12,7 @@
 }
 
 .footer-address__list .footer-address__map {
-  color: $hero-text-color;
+  color: var(--hero-text-color);
 }
 
 .footer-address__item {
@@ -40,7 +40,7 @@
 
   &:hover,
   &:focus {
-    color: $accent-color;
+    color: var(--accent-color);
   }
 }
 
@@ -61,7 +61,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  color: $hero-text-color;
+  color: var(--hero-text-color);
   margin-bottom: 20px;
   padding: 0;
 }
@@ -92,8 +92,8 @@
 
   &:hover,
   &:focus {
-    background-color: $accent-color;
-    fill: $hero-text-color;
+    background-color: var(--accent-color);
+    fill: var(--hero-text-color);
   }
 }
 
@@ -103,7 +103,7 @@
 }
 
 .footer-socials__icon {
-  fill: $hero-text-color;
+  fill: var(--hero-text-color);
 }
 
 .footer-form {
